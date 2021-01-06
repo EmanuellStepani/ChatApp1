@@ -48,9 +48,7 @@ public class ThredatEPerdorusit extends Thread {
         }
     }
 
-    /**
-     * Sends a list of online users to the newly connected user.
-     */
+
     void printoPerdorusin() {
         if (serveri.kaPerdorus()) {
             shkruesi.println("Connected users: " + serveri.getEmriPerdoruesve());
@@ -59,9 +57,6 @@ public class ThredatEPerdorusit extends Thread {
         }
     }
 
-    /**
-     * Sends a message to the client.
-     */
     void dergoMesazh(String message) {
         shkruesi.println(message);
     }
